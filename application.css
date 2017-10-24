@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.fruit-header {
+  font-size: 30px;
+  color: white;
+  font-family: arial;
+  margin-left: 5%;
+  background-color: #35C896;
+  padding: 5px 20px 5px 20px;
+  letter-spacing: 2px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.total-app {
+  display: flex;
+  border-top: 5px solid #35C896;
+  justify-content: space-around;
+}
+
+.fruits-index {
+  display: inline-flex;
+  width: 70%;
+}
+
+.fruits-index ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fruits-index-item {
+  font-family: arial;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 175px;
+  height: 235px;
+  padding: 10px;
+  border: 2px solid #6EDAB6;
+  margin: 7px;
+  text-align: center;
+}
+
+.fruits-index-item img {
+  height: 100px;
+  width: auto;
+}
+
+.fruits-index-item span {
+  text-transform: capitalize;
+}
+
+.item-price {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  height: 30px;
+  width: 110px;
+  background-color: #33C996;
+  border-color: #33C996;
+  border-style: solid;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #04DB90;
+}
+
+.shopping-cart {
+  position: relative;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-height: 100%;
+  background-color: #35C896;
+  text-align: center;
+  align-items: center;
+}
+
+.shopping-cart span {
+  color: white;
+  font-family: arial;
+  margin-top: 15px;
+}
+
+.cart-items {
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cart-items li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  background-color: #84D6B9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-item span {
+  color: black;
+  font-weight: 500;
+}
+
+.cart-item img {
+  height: 60px;
+  width: auto;
+}
+
+.img-and-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.under-cart-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.under-cart-list button {
+  font-weight: 500;
+  color: black;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  background-color: #84D6B9;
+  border-color: #84D6B9;
+}
