@@ -25,7 +25,6 @@ class ShoppingCart extends React.Component {
     return (
         <div className="shopping-cart">
           <span>SHOPPING CART</span>
-          <span>{Object.values(this.props.fruitsInCart)}</span>
 
           <ul className="cart-items">
             {
